@@ -189,9 +189,9 @@ with aba_visao:
             melhor_opcao = min(dados_ranking, key=lambda x: x["total"])
             
             texto_vencedor = (
-                f"🥇 A melhor combinação custo-benefício para o projeto '{projeto_atual}' é o **{melhor_opcao['orcamento']}** "
-                f"do fornecedor **{melhor_opcao['fornecedor']}**, "
-                f"com o custo total de **R$ {melhor_opcao['total']:.2f}**."
+                f"🥇 A melhor combinação custo-benefício para o projeto '{projeto_atual}' é o {melhor_opcao['orcamento']} "
+                f"do fornecedor {melhor_opcao['fornecedor']}, "
+                f"com o custo total de R$ {melhor_opcao['total']:.2f}."
             )
             
             st.markdown(
