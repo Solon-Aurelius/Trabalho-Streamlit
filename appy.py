@@ -6,7 +6,7 @@ st.set_page_config(page_title="Gestor de Orçamentos", page_icon="📚", layout=
 st.title("📂 Sistema Avançado de Projetos e Fornecedores")
 
 # 2. Inicializa a estrutura de dados na sessão se não existir
-# Estrutura: { "Projeto": { "Fornecedor": { "Nome do Orçamento": [lista de produtos] } } }
+# Estrutura: { "Projeto": { "Fornecedor": { "Nome do Orçamento": [lista de produtos] } 
 if "projetos" not in st.session_state:
     st.session_state.projetos = {
         "Reforma Escritório": {
