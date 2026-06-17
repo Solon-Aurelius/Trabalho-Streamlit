@@ -82,7 +82,7 @@ with st.sidebar:
 # ==============================================================================
 
 # Barra azul indicando onde o usuário está trabalhando no momento
-st.info(f"O projeto que você está mexendo agora é o: *{projeto_atual}*")
+st.info(f"O projeto que você está mexendo agora é o: {projeto_atual}")
 
 # Cria as três abas principais, incluindo a nova tela de tutorial
 aba_tutorial, aba_cadastro, aba_visao = st.tabs([
