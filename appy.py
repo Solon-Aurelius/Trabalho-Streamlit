@@ -2,7 +2,7 @@ import streamlit as st
 
 # Configura a página (deve ser o primeiro comando)
 st.set_page_config(
-    page_title="Gestor de Orçamentos", 
+    page_title="ContaCerta", 
     page_icon="📚", 
     layout="wide"  
 )
@@ -21,7 +21,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Título do sistema
-st.title("📂 Sistema de Orçamentos")
+st.title("📂 Gestor de Orçamentos")
 st.caption("Descubra o fornecedor mais barato sem fazer nenhuma conta de cabeça!")
 st.write("---")
 
