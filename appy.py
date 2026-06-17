@@ -21,7 +21,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Título do sistema
-st.title("📂 Sistema de Orçamentos Super Fácil")
+st.title("📂 Sistema de Orçamentos")
 st.caption("Descubra o fornecedor mais barato sem fazer nenhuma conta de cabeça!")
 st.write("---")
 
